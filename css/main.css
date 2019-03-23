@@ -1,0 +1,79 @@
+/*body {
+  background-color: green;
+}*/
+
+div#grass {
+  background-color: #88D927;
+  /*border: 1px solid black;*/
+  left: 30%;
+  height: 250px;
+  position: relative;/*para que se mueva 30% a la izq*/
+  width: 500px;
+}
+
+div#field {
+  border: 4px solid white;
+  height: 200px;
+  left:25px;
+  position: absolute;
+  top: 25px;
+  width: 450px;
+}
+
+/*div#grass div#field div {
+  height: 50px;
+  width: 50px;
+}*/
+
+div#circle {
+  border: 4px solid white;
+  border-radius: 80px;
+  height: 80px;
+  position: absolute;
+  left: 40%;
+  top:30%;
+  width: 80px;
+}
+
+.porter {
+  border: 4px solid white;
+  height: 100px;
+  position: absolute;
+  top: 25%;
+  width: 50px;
+}
+
+div#rigth-porter {
+  border-left: none;
+}
+
+div#left-porter {
+  border-right: none;
+  right: 0%;
+}
+
+div#ball1 {
+  left:7%;
+  top: 25%;
+
+}
+
+div#ball2 {
+  position: absolute;
+  left:50%;
+  top: 15%;
+}
+
+div#ball3 {
+  left:83%;
+  top: 68%;
+}
+
+div.ball {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+}
